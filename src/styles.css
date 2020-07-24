@@ -1,1 +1,371 @@
 /* You can add global styles to this file, and also import other style files */
+.navbar {
+  background: rgba(0,31,64,1);
+background: -moz-linear-gradient(left, rgba(0,31,64,1) 0%, rgba(0,31,64,1) 43%, rgba(4,63,122,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(0,31,64,1)), color-stop(43%, rgba(0,31,64,1)), color-stop(100%, rgba(4,63,122,1)));
+background: -webkit-linear-gradient(left, rgba(0,31,64,1) 0%, rgba(0,31,64,1) 43%, rgba(4,63,122,1) 100%);
+background: -o-linear-gradient(left, rgba(0,31,64,1) 0%, rgba(0,31,64,1) 43%, rgba(4,63,122,1) 100%);
+background: -ms-linear-gradient(left, rgba(0,31,64,1) 0%, rgba(0,31,64,1) 43%, rgba(4,63,122,1) 100%);
+background: linear-gradient(to right, rgba(0,31,64,1) 0%, rgba(0,31,64,1) 43%, rgba(4,63,122,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#001f40', endColorstr='#043f7a', GradientType=1 );
+}
+.footer{
+  background: #001933;
+  width: 100%;
+-webkit-box-shadow: inset 10px 10px 10px -1px rgba(0,0,0,0.59);
+-moz-box-shadow: inset 10px 10px 10px -1px rgba(0,0,0,0.59);
+box-shadow: inset 10px 10px 10px -1px rgba(0,0,0,0.59);
+   -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
+}
+.card1 {
+  color: #D1D1D1;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.7);
+  transition: 0.3s;
+background: rgba(0,31,64,1);
+background: -moz-linear-gradient(left, rgba(0,31,64,1) 0%, rgba(0,31,64,1) 43%, rgba(4,63,122,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(0,31,64,1)), color-stop(43%, rgba(0,31,64,1)), color-stop(100%, rgba(4,63,122,1)));
+background: -webkit-linear-gradient(left, rgba(0,31,64,1) 0%, rgba(0,31,64,1) 43%, rgba(4,63,122,1) 100%);
+background: -o-linear-gradient(left, rgba(0,31,64,1) 0%, rgba(0,31,64,1) 43%, rgba(4,63,122,1) 100%);
+background: -ms-linear-gradient(left, rgba(0,31,64,1) 0%, rgba(0,31,64,1) 43%, rgba(4,63,122,1) 100%);
+background: linear-gradient(to right, rgba(0,31,64,1) 0%, rgba(0,31,64,1) 43%, rgba(4,63,122,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#001f40', endColorstr='#043f7a', GradientType=1 );
+}
+.card1:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.8);
+}
+/* CARTA  BECAS*/
+.card3 {
+/*background: #ffffff;
+border: 0px solid #000000;*/
+border: 1px solid #000000;
+background: rgba(255,255,255,1);
+background: -moz-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(250,250,250,1) 50%, rgba(235,235,235,1) 52%, rgba(247,247,247,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255,255,255,1)), color-stop(50%, rgba(250,250,250,1)), color-stop(52%, rgba(235,235,235,1)), color-stop(100%, rgba(247,247,247,1)));
+background: -webkit-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(250,250,250,1) 50%, rgba(235,235,235,1) 52%, rgba(247,247,247,1) 100%);
+background: -o-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(250,250,250,1) 50%, rgba(235,235,235,1) 52%, rgba(247,247,247,1) 100%);
+background: -ms-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(250,250,250,1) 50%, rgba(235,235,235,1) 52%, rgba(247,247,247,1) 100%);
+background: linear-gradient(to right, rgba(255,255,255,1) 0%, rgba(250,250,250,1) 50%, rgba(235,235,235,1) 52%, rgba(247,247,247,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f7f7f7', GradientType=1 );
+box-shadow: 0 4px 8px 0 rgba(0,0,0,0.7);
+  transition: 0.3s;
+}
+.card4 {
+/*background: #ffffff;
+border: 0px solid #000000;*/
+border: 1px solid #000000;
+  color: #000000;
+background: rgba(255,255,255,1);
+background: -moz-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(250,250,250,1) 50%, rgba(235,235,235,1) 52%, rgba(247,247,247,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(255,255,255,1)), color-stop(50%, rgba(250,250,250,1)), color-stop(52%, rgba(235,235,235,1)), color-stop(100%, rgba(247,247,247,1)));
+background: -webkit-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(250,250,250,1) 50%, rgba(235,235,235,1) 52%, rgba(247,247,247,1) 100%);
+background: -o-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(250,250,250,1) 50%, rgba(235,235,235,1) 52%, rgba(247,247,247,1) 100%);
+background: -ms-linear-gradient(left, rgba(255,255,255,1) 0%, rgba(250,250,250,1) 50%, rgba(235,235,235,1) 52%, rgba(247,247,247,1) 100%);
+background: linear-gradient(to right, rgba(255,255,255,1) 0%, rgba(250,250,250,1) 50%, rgba(235,235,235,1) 52%, rgba(247,247,247,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#f7f7f7', GradientType=1 );
+ box-shadow: 0 4px 8px 0 rgba(0,0,0,0.7);
+  transition: 0.3s;
+}
+ .card4-header{
+  border: 0.5px solid #000000;
+  color: #000000; 
+background: rgba(214,214,214,1);
+background: -moz-linear-gradient(left, rgba(214,214,214,1) 0%, rgba(186,186,186,0.99) 28%, rgba(0,31,64,0.95) 97%, rgba(0,31,64,0.95) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(214,214,214,1)), color-stop(28%, rgba(186,186,186,0.99)), color-stop(97%, rgba(0,31,64,0.95)), color-stop(100%, rgba(0,31,64,0.95)));
+background: -webkit-linear-gradient(left, rgba(214,214,214,1) 0%, rgba(186,186,186,0.99) 28%, rgba(0,31,64,0.95) 97%, rgba(0,31,64,0.95) 100%);
+background: -o-linear-gradient(left, rgba(214,214,214,1) 0%, rgba(186,186,186,0.99) 28%, rgba(0,31,64,0.95) 97%, rgba(0,31,64,0.95) 100%);
+background: -ms-linear-gradient(left, rgba(214,214,214,1) 0%, rgba(186,186,186,0.99) 28%, rgba(0,31,64,0.95) 97%, rgba(0,31,64,0.95) 100%);
+background: linear-gradient(to right, rgba(214,214,214,1) 0%, rgba(186,186,186,0.99) 28%, rgba(0,31,64,0.95) 97%, rgba(0,31,64,0.95) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d6d6d6', endColorstr='#001f40', GradientType=1 );
+  padding: 10px;
+  border-bottom: 0.5px solid #000000;
+ }
+ .card41-header{
+    border: 0.5px solid #000000;
+   color: #000000; 
+  background: rgba(214,214,214,1);
+background: -moz-linear-gradient(left, rgba(214,214,214,1) 0%, rgba(199,199,199,0.99) 28%, rgba(186,186,186,0.98) 53%, rgba(255,244,38,0.95) 97%, rgba(247,255,0,0.95) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(214,214,214,1)), color-stop(28%, rgba(199,199,199,0.99)), color-stop(53%, rgba(186,186,186,0.98)), color-stop(97%, rgba(255,244,38,0.95)), color-stop(100%, rgba(247,255,0,0.95)));
+background: -webkit-linear-gradient(left, rgba(214,214,214,1) 0%, rgba(199,199,199,0.99) 28%, rgba(186,186,186,0.98) 53%, rgba(255,244,38,0.95) 97%, rgba(247,255,0,0.95) 100%);
+background: -o-linear-gradient(left, rgba(214,214,214,1) 0%, rgba(199,199,199,0.99) 28%, rgba(186,186,186,0.98) 53%, rgba(255,244,38,0.95) 97%, rgba(247,255,0,0.95) 100%);
+background: -ms-linear-gradient(left, rgba(214,214,214,1) 0%, rgba(199,199,199,0.99) 28%, rgba(186,186,186,0.98) 53%, rgba(255,244,38,0.95) 97%, rgba(247,255,0,0.95) 100%);
+background: linear-gradient(to right, rgba(214,214,214,1) 0%, rgba(199,199,199,0.99) 28%, rgba(186,186,186,0.98) 53%, rgba(255,244,38,0.95) 97%, rgba(247,255,0,0.95) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d6d6d6', endColorstr='#f7ff00', GradientType=1 );
+padding: 10px;
+  border-bottom: 0.5px solid #000000;
+ }
+.card2 {
+  color: #FFFFFF;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
+  transition: 0.3s;
+background: rgba(4,63,122,1);
+background: -moz-linear-gradient(left, rgba(4,63,122,1) 0%, rgba(0,31,64,1) 57%, rgba(0,31,64,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(4,63,122,1)), color-stop(57%, rgba(0,31,64,1)), color-stop(100%, rgba(0,31,64,1)));
+background: -webkit-linear-gradient(left, rgba(4,63,122,1) 0%, rgba(0,31,64,1) 57%, rgba(0,31,64,1) 100%);
+background: -o-linear-gradient(left, rgba(4,63,122,1) 0%, rgba(0,31,64,1) 57%, rgba(0,31,64,1) 100%);
+background: -ms-linear-gradient(left, rgba(4,63,122,1) 0%, rgba(0,31,64,1) 57%, rgba(0,31,64,1) 100%);
+background: linear-gradient(to right, rgba(4,63,122,1) 0%, rgba(0,31,64,1) 57%, rgba(0,31,64,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#043f7a', endColorstr='#001f40', GradientType=1 );
+ }
+.card2:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.4);
+
+}
+/* BOTON VERDE  */
+.btn-enviar { 
+  color: #FFFFFF; 
+  background-color: #023E87; 
+  border-color: #FFFFFF; 
+} 
+ 
+.btn-enviar:hover, 
+.btn-enviar:focus, 
+.btn-enviar:active, 
+.btn-enviar.active, 
+.open .dropdown-toggle.btn-enviar { 
+  color: #FFFFFF; 
+  background-color: #0088D1; 
+  border-color: #FFFFFF; 
+} 
+ 
+.btn-enviar:active, 
+.btn-enviar.active, 
+.open .dropdown-toggle.btn-enviar { 
+  background-image: none; 
+} 
+ 
+.btn-enviar.disabled, 
+.btn-enviar[disabled], 
+fieldset[disabled] .btn-enviar, 
+.btn-enviar.disabled:hover, 
+.btn-enviar[disabled]:hover, 
+fieldset[disabled] .btn-enviar:hover, 
+.btn-enviar.disabled:focus, 
+.btn-enviar[disabled]:focus, 
+fieldset[disabled] .btn-enviar:focus, 
+.btn-enviar.disabled:active, 
+.btn-enviar[disabled]:active, 
+fieldset[disabled] .btn-enviar:active, 
+.btn-enviar.disabled.active, 
+.btn-enviar[disabled].active, 
+fieldset[disabled] .btn-enviar.active { 
+  background-color: #023E87; 
+  border-color: #FFFFFF; 
+} 
+ 
+.btn-enviar .badge { 
+  color: #023E87; 
+  background-color: #FFFFFF; 
+}
+.needs-validation .control-label:after{
+  color: #d00;
+  content: "*";
+  position: absolute;
+  margin-left: 8px;
+  top: 7px
+}
+/* BOTON INGRESAR AZUL CLARO */
+
+.btn-ingr { 
+  color: #FFFFFF; 
+  background-color: #2663FF; 
+   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
+} 
+ 
+.btn-ingr:hover, 
+.btn-ingr:focus, 
+.btn-ingr:active, 
+.btn-ingr.active, 
+.open .dropdown-toggle.btn-ingr { 
+  color: #FFFFFF; 
+  background-color: #3457BF; 
+ 
+} 
+ 
+.btn-ingr:active, 
+.btn-ingr.active, 
+.open .dropdown-toggle.btn-ingr { 
+  background-image: none; 
+} 
+ 
+.btn-ingr.disabled, 
+.btn-ingr[disabled], 
+fieldset[disabled] .btn-ingr, 
+.btn-ingr.disabled:hover, 
+.btn-ingr[disabled]:hover, 
+fieldset[disabled] .btn-ingr:hover, 
+.btn-ingr.disabled:focus, 
+.btn-ingr[disabled]:focus, 
+fieldset[disabled] .btn-ingr:focus, 
+.btn-ingr.disabled:active, 
+.btn-ingr[disabled]:active, 
+fieldset[disabled] .btn-ingr:active, 
+.btn-ingr.disabled.active, 
+.btn-ingr[disabled].active, 
+fieldset[disabled] .btn-ingr.active { 
+  background-color: #2663FF; 
+  border-color: #FFFFFF; 
+} 
+
+ 
+.btn-ingr .badge { 
+  color: #2663FF; 
+  background-color: #FFFFFF; 
+}
+/* BOTON REGISTRRSE AMARILLO */
+
+.btn-reg { 
+  color: #000000; 
+  background-color: #F0F725; 
+ 
+} 
+ 
+.btn-reg:hover, 
+.btn-reg:focus, 
+.btn-reg:active, 
+.btn-reg.active, 
+.open .dropdown-toggle.btn-reg { 
+  color: #000000; 
+  background-color: #9C9400; 
+} 
+ 
+.btn-reg:active, 
+.btn-reg.active, 
+.open .dropdown-toggle.btn-reg { 
+  background-image: none; 
+} 
+ 
+.btn-reg.disabled, 
+.btn-reg[disabled], 
+fieldset[disabled] .btn-reg, 
+.btn-reg.disabled:hover, 
+.btn-reg[disabled]:hover, 
+fieldset[disabled] .btn-reg:hover, 
+.btn-reg.disabled:focus, 
+.btn-reg[disabled]:focus, 
+fieldset[disabled] .btn-reg:focus, 
+.btn-reg.disabled:active, 
+.btn-reg[disabled]:active, 
+fieldset[disabled] .btn-reg:active, 
+.btn-reg.disabled.active, 
+.btn-reg[disabled].active, 
+fieldset[disabled] .btn-reg.active { 
+  background-color: #FFFF52; 
+  border-color: #FFFFFF; 
+} 
+ 
+.btn-reg .badge { 
+  color: #FFFF52; 
+  background-color: #000000; 
+  } 
+  .btn-amarillo { 
+  color: #000000; 
+  background-color: #FFFF26; 
+  border-color: #000000; 
+} 
+ 
+.btn-amarillo:hover, 
+.btn-amarillo:focus, 
+.btn-amarillo:active, 
+.btn-amarillo.active, 
+.open .dropdown-toggle.btn-amarillo { 
+  color: #000000; 
+  background-color: #E8DC00; 
+  border-color: #000000; 
+} 
+ 
+.btn-amarillo:active, 
+.btn-amarillo.active, 
+.open .dropdown-toggle.btn-amarillo { 
+  background-image: none; 
+} 
+ 
+.btn-amarillo.disabled, 
+.btn-amarillo[disabled], 
+fieldset[disabled] .btn-amarillo, 
+.btn-amarillo.disabled:hover, 
+.btn-amarillo[disabled]:hover, 
+fieldset[disabled] .btn-amarillo:hover, 
+.btn-amarillo.disabled:focus, 
+.btn-amarillo[disabled]:focus, 
+fieldset[disabled] .btn-amarillo:focus, 
+.btn-amarillo.disabled:active, 
+.btn-amarillo[disabled]:active, 
+fieldset[disabled] .btn-amarillo:active, 
+.btn-amarillo.disabled.active, 
+.btn-amarillo[disabled].active, 
+fieldset[disabled] .btn-amarillo.active { 
+  background-color: #FFFF26; 
+  border-color: #000000; 
+} 
+ 
+.btn-amarillo .badge { 
+  color: #FFFF26; 
+  background-color: #000000; 
+}
+ .form-class.required .control-label:after {
+  content:"*";color:red;
+}
+#login .container #login-row #login-column #login-box {
+  color: #FFFFFF;
+  margin-top: 10px;
+  max-width: 600px;
+  margin-bottom: 10px;
+  height: 320px;
+  border: 1px solid #9C9C9C;
+  background: rgba(0,31,64,1);
+background: -moz-linear-gradient(left, rgba(0,31,64,1) 0%, rgba(0,31,64,1) 43%, rgba(4,63,122,1) 100%);
+background: -webkit-gradient(left top, right top, color-stop(0%, rgba(0,31,64,1)), color-stop(43%, rgba(0,31,64,1)), color-stop(100%, rgba(4,63,122,1)));
+background: -webkit-linear-gradient(left, rgba(0,31,64,1) 0%, rgba(0,31,64,1) 43%, rgba(4,63,122,1) 100%);
+background: -o-linear-gradient(left, rgba(0,31,64,1) 0%, rgba(0,31,64,1) 43%, rgba(4,63,122,1) 100%);
+background: -ms-linear-gradient(left, rgba(0,31,64,1) 0%, rgba(0,31,64,1) 43%, rgba(4,63,122,1) 100%);
+background: linear-gradient(to right, rgba(0,31,64,1) 0%, rgba(0,31,64,1) 43%, rgba(4,63,122,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#001f40', endColorstr='#043f7a', GradientType=1 );
+}
+#login .container #login-row #login-column #login-box #login-form {
+  padding: 20px;
+}
+#login .container #login-row #login-column #login-box #login-form #register-link {
+  margin-top: -85px;
+}
+/* Tooltip container */
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black; /* If you want dots under the hoverable text */
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+
+  /* Position the tooltip text */
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -60px;
+
+  /* Fade in tooltip */
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+/* Tooltip arrow */
+.tooltip .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}

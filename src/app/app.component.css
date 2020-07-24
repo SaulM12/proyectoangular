@@ -1,0 +1,36 @@
+.footer{
+    background: #001933;
+    width: 100%;
+  -webkit-box-shadow: inset 10px 10px 10px -1px rgba(0,0,0,0.59);
+  -moz-box-shadow: inset 10px 10px 10px -1px rgba(0,0,0,0.59);
+  box-shadow: inset 10px 10px 10px -1px rgba(0,0,0,0.59);
+     -webkit-box-sizing: border-box;
+         -moz-box-sizing: border-box;
+              box-sizing: border-box;
+  }
+  .navbar {
+    background: rgba(0,31,64,1);
+  background: -moz-linear-gradient(left, rgba(0,31,64,1) 0%, rgba(0,31,64,1) 43%, rgba(4,63,122,1) 100%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, rgba(0,31,64,1)), color-stop(43%, rgba(0,31,64,1)), color-stop(100%, rgba(4,63,122,1)));
+  background: -webkit-linear-gradient(left, rgba(0,31,64,1) 0%, rgba(0,31,64,1) 43%, rgba(4,63,122,1) 100%);
+  background: -o-linear-gradient(left, rgba(0,31,64,1) 0%, rgba(0,31,64,1) 43%, rgba(4,63,122,1) 100%);
+  background: -ms-linear-gradient(left, rgba(0,31,64,1) 0%, rgba(0,31,64,1) 43%, rgba(4,63,122,1) 100%);
+  background: linear-gradient(to right, rgba(0,31,64,1) 0%, rgba(0,31,64,1) 43%, rgba(4,63,122,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#001f40', endColorstr='#043f7a', GradientType=1 );
+  }
+  .card1 {
+    color: #D1D1D1;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.7);
+    transition: 0.3s;
+  background: rgba(0,31,64,1);
+  background: -moz-linear-gradient(left, rgba(0,31,64,1) 0%, rgba(0,31,64,1) 43%, rgba(4,63,122,1) 100%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, rgba(0,31,64,1)), color-stop(43%, rgba(0,31,64,1)), color-stop(100%, rgba(4,63,122,1)));
+  background: -webkit-linear-gradient(left, rgba(0,31,64,1) 0%, rgba(0,31,64,1) 43%, rgba(4,63,122,1) 100%);
+  background: -o-linear-gradient(left, rgba(0,31,64,1) 0%, rgba(0,31,64,1) 43%, rgba(4,63,122,1) 100%);
+  background: -ms-linear-gradient(left, rgba(0,31,64,1) 0%, rgba(0,31,64,1) 43%, rgba(4,63,122,1) 100%);
+  background: linear-gradient(to right, rgba(0,31,64,1) 0%, rgba(0,31,64,1) 43%, rgba(4,63,122,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#001f40', endColorstr='#043f7a', GradientType=1 );
+  }
+  .card1:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.8);
+  }
